@@ -1,0 +1,32 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: monospace;
+}
+a {
+    color: inherit;
+    display: block;
+    height: 100%;
+    padding: 1em;
+    padding-top: 2em;
+    text-decoration: inherit;
+    width: 100%;
+}
+div {
+    border-radius: 1.5em;
+    border: mediumpurple solid;
+    display: inline-flex;
+    margin: .2em;
+    margin-bottom: 1em;
+}
+div * {
+    font-size: 4em;
+    height: 1em;
+    padding: .3em;
+}
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}

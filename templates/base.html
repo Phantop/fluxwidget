@@ -1,0 +1,12 @@
+<!doctype html>
+<title>Miniflux Unread</title>
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+<body>
+<a href="{{url}}">
+    {% for icon, count in items %} 
+    <div>
+        <img src="data:{{icon}}">
+        <b>{{count}}</b>
+    </div>
+    {% endfor %} 
+</a>
